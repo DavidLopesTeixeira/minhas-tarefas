@@ -5,6 +5,7 @@ import BarraLateral from './containers/BarraLateral'
 import ListaDeTarefas from './containers/ListaDeTarefa'
 import store from './store'
 import Home from './pages/Home'
+import Cadastro from './pages/Cadastro'
 
 const rotas = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const rotas = createBrowserRouter([
   },
   {
     path: '/novo',
-    element: <h1>Nova tarefa</h1>
+    element: <Cadastro />
   }
 ])
 
